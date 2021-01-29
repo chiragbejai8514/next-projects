@@ -1,0 +1,54 @@
+.section-4{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.section-4 .section-title-2{
+    padding-bottom: 24px;
+}
+
+.section-4 p{
+    margin: 0;
+    margin-bottom: 30px;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.section-4-container {
+    flex: 1;
+    justify-content: center;
+}
+
+.left-container{
+    flex: 1;   
+    justify-content: center;
+}
+
+.section-4-image{
+    flex:1;
+    min-width: 330px;
+}
+
+.card-container {
+    display: flex;
+    padding-bottom: 34px; 
+}
+
+.card-container>img{
+   width: 60px;
+   height: 60px;
+}
+
+.card-about{
+    max-width: 293px;
+    font-size: 14px;
+    line-height: 1.57;
+}
+
+@media  (max-width: 992px) {   
+    .dev-image {
+        margin-bottom: 60px!important;
+    }
+}

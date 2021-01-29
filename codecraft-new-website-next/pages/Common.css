@@ -1,0 +1,157 @@
+html {
+    font-size: 16px;
+    font-family: Raleway;
+    scroll-behavior: smooth;
+}
+
+small{
+    font-weight: 100;
+}
+
+body {
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 13px;
+    font-family: Montserrat, sans-serif;    
+    color: #121212;
+    cursor: pointer;
+    transition: color .4s cubic-bezier(.25, .46, .45, .94);
+}
+
+a:hover{
+    color: #00addf;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+    width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    line-height: 1;
+    margin-top: 0;
+    margin-bottom: .5rem;
+}
+
+.h4, h4 {
+    font-size: 1.5rem;
+}
+
+h4 small, h5 small, h6 small {
+    font-family: Raleway, sans-serif;
+    font-weight: 300;
+}
+
+p{
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+    margin: 0
+}
+
+.container{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1140px;
+}
+
+.btn{
+    width: 144px;
+    height: 48px;
+    border-radius: 3px;
+    box-shadow: 0 5px 0 0 rgba(0, 187, 240, 0.5);
+    background-color: #01addf;
+    font-weight: 600;
+    line-height: 1.25;
+    color: #ffffff;
+    border: hidden;
+    font-size: 16px;
+    line-height: 1.25;
+}
+
+.section-title{
+    font-size: 3.125rem;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.section-title-1 {
+    font-weight: 200;
+}
+
+.section-title-2 {
+    font-weight: 800;
+    font-family: Montserrat,sans-serif;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.flex-wrap-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.center{
+    align-items: center;
+}
+
+.grey{
+    background: #f6f8f9;
+}
+
+.btn-buy {
+    background: #00addf;
+    border-radius: 3px;
+    color: #ffffff;
+    font-size: 10px;
+    line-height: 1.5;
+    padding: 3px 5px;
+}
+
+.col-lg-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    position: relative;
+}
+
+.col-lg-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    position: relative;
+}
+
+
+ @media  (max-width: 992px) {   
+    html {
+        font-size: 14px!important;
+        font-family: Raleway!important;
+    }
+       
+    .pic {
+        margin-left: 0!important;
+    }
+
+    .text-center{
+        text-align: center
+    }
+
+}
+

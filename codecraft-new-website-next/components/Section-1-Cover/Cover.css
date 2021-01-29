@@ -1,0 +1,43 @@
+.section-1{
+    color: white;
+    text-align: left;
+    padding-bottom: 50px;
+    padding-top: 70px;
+    background-image: linear-gradient(to bottom, #021342, #01081f);
+}
+
+.section-1 .flex-wrap-row{
+    flex-wrap: wrap-reverse;
+
+}
+
+.section-1-info {
+    flex: 1;
+}
+.section-1 .section-title{
+    text-align: left;
+}
+
+.pic{
+    max-width: 542px;
+    margin-left: -72px;
+}
+
+.section-1 p{
+    padding-bottom: 30px;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.section-1 .section-title-1 {
+    padding-top: 69px;
+}
+
+.section-1 .section-title-2 {
+    padding-bottom: 24px;
+}
+
+
+
+

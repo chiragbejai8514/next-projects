@@ -1,0 +1,46 @@
+.section-9{
+    padding-top: 38px;
+}
+
+.section-9-container{
+padding-top: 70px;
+padding-bottom: 77px;
+}
+
+.service-card{
+    padding-top: 15px;
+    padding-right: 25px;
+    padding-left: 25px;
+    flex: 0 0 44%;
+}
+
+.service-pic{
+    min-width: 60px;
+    max-width: 60px;
+}
+
+.info-container{
+    padding-left:16px;
+    margin-bottom:52.7px
+}
+
+.service-name{
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.4;
+    letter-spacing: 0.5px;
+}
+.service-info{
+    font-size: 0.875rem;
+    line-height: 1.57;
+}
+
+@media  (max-width: 992px) {   
+    .service-card {
+        flex: 100%;
+        padding-top: 15px;
+        padding-right: 0;
+        padding-left: 0;
+    }
+}

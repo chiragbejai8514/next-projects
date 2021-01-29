@@ -1,0 +1,124 @@
+.header{
+    background-color: transparent;
+}
+
+.change{
+    background-color:  #021342  
+}
+
+.header a{
+    color: white;    
+}
+
+.header a:hover{
+    color: #00addf;
+
+}
+
+.fixed {
+    position: fixed;
+    padding: .5rem 0;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1; 
+}
+
+.header .container {
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.company-name {
+    display: inline-block;
+    padding: 11px 0 11px 0px;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+
+.nav-body{
+    margin: 0;
+}
+
+.nav-item {
+    list-style: none;
+    padding: 10px 15px;
+    font-size: 13px;
+    line-height: 20px;
+    font-family: Montserrat, sans-serif;
+}
+
+.btn-buy {
+    background: #00addf;
+    border-radius: 3px;
+    color: #ffffff;
+    font-size: 10px;
+    line-height: 1.5;
+    padding: 3px 5px;
+    font-family: Montserrat, sans-serif;
+}
+
+.dropdown{
+    display: none;    
+}
+
+.noShow{
+    display: none;
+    opacity: 0;
+}
+
+.show{
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.dropBox{
+    position: absolute;
+    width: 100%;
+    background-color: #1c1c1c;
+    left: 0;
+    transition: height 0.3s ease-in;
+    font-size: 13px;
+    line-height: 20px;
+    font-family: Montserrat, sans-serif;  
+    transition: opacity 0.5s ease-in-out;
+   }
+
+.dropBox a{
+    color: #ffffff!important;    
+}
+
+.icon-hamburger, .icon-close{
+    color: white;
+    font-size: 2rem;
+}
+
+.icon-hamburger:before {
+    content: "\e901";
+}
+
+@media  (max-width: 992px) {      
+    .pic {
+        margin-left: 0!important;
+    }
+
+    .nav-body {
+        display: none!important;   
+    }
+   
+
+    .dropdown{
+        display:block!important
+    }
+
+
+
+    .nav-item {
+        border-bottom: 1px dotted #2a2a2a!important 
+    }
+
+
+}

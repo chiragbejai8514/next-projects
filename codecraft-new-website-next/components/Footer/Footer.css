@@ -1,0 +1,99 @@
+.footer *{
+    color:white;    
+}
+
+.footer{
+    background-color: #121212;
+    padding-top: 80px;
+    padding-bottom: 15px;
+}
+
+.scroll-top {
+    background: #121212;
+    width: 45px;
+    height: 40px;
+    font-size: 1.75rem;
+    text-align: center;
+    padding-top: 6px;
+    top: 0;
+    left: 0;
+    display: block;
+    margin: auto;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 3px 3px 0 0;
+}
+
+
+.footer a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.footer  a:hover{
+    color: #00addf;
+}
+
+.footer .social-media-links span {
+    color: #00addf;
+    font-size: 1.875rem;
+    margin: 0 17px 27px 17px;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-transition: color .4s cubic-bezier(.25, .46, .45, .94);
+    transition: color .4s cubic-bezier(.25, .46, .45, .94);
+}
+
+.footer .social-media-links span:hover{
+    color: white
+}
+
+.footer-body{
+    text-align: center;
+    border-bottom: 1px solid #333;
+}
+
+.footer .slogan {
+    font-weight: 300;
+    padding-bottom: 10px;
+    font-size: 1rem;
+}
+
+.footer span{
+    color: #00addf;
+    font-size: 1.875rem;
+    margin: 0 17px 27px 17px;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-transition: color .4s cubic-bezier(.25, .46, .45, .94);
+    transition: color .4s cubic-bezier(.25, .46, .45, .94);
+}
+
+.footer  .footer-logo {
+    padding-bottom: 55px;
+    margin: 0;
+}
+
+.last{
+    padding-bottom: 13.6px;
+    padding-top: 34px;
+    color: #999!important
+}
+
+.last p{
+    display: inline-block;
+    padding-right: 30px;
+    font-size: 0.75rem;
+    color: #999;    
+}
+
+.last a{
+    font-size: 0.75rem;
+    text-decoration: none;
+    color: #999;
+    font-size: 0.75rem;
+    font-weight: unset;
+}

@@ -1,0 +1,258 @@
+.section-form{
+    padding-top: 80px;
+    padding-bottom: 94px;
+}
+
+.half{
+    width: 50%;
+    padding-right: 15px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+button {
+    outline: none;
+    border: none;
+    transition: all .3s linear;
+}    
+
+.full{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    position: relative;
+    
+}
+
+
+
+
+
+.text-center{
+    text-align: center
+}
+/* .form {
+    padding-top: 120px;
+    padding-bottom: 94px;
+  } */
+  
+  .form .section-title {
+    text-align: center;
+  }
+  
+  .form .section-title-2 {
+    padding-bottom: 100px;
+  }
+  
+  .form .note {
+    font-size: 1.25rem;
+    line-height: 1.5;
+    padding-bottom: 57px;
+  }
+  
+  .form .note a {
+    color: #00addf;
+    font-size: 1.25rem;
+    line-height: 1.5;
+}
+  
+  .form input[type=text],
+  .form input[type=email],
+  .form input[type=number] {
+    border: none;
+    outline: none;
+    padding-bottom: 12px;
+    margin-bottom: 64px;
+    border-bottom: 1px solid #c2c2c2;
+    font-size: 1.25rem;
+    line-height: 1.6;
+    letter-spacing: 0.24px;
+    width: 100%;
+  }
+  
+  .form input[type=range] {
+    margin-bottom: 64px;
+  }
+  
+  .form input[type=text]:focus,
+  .form input[type=email]:focus,
+  .form input[type=number]:focus {
+    border-bottom: 1px solid #999;
+  }
+  
+  .form input[type=text]:focus~.floating-label,
+  .form input[type=text]:not(:placeholder-shown)~.floating-label {
+    top: -18px;
+    bottom: 10px;
+    left: 15px;
+    color: #121212;
+    font-size: 0.8125rem;
+    letter-spacing: 0.16px;
+  }
+  
+  .form .floating-label {
+    position: absolute;
+    pointer-events: none;
+    left: 20px;
+    top: 6px;
+    transition: 0.2s ease all;
+    font-size: 1.25rem;
+    line-height: 1.6;
+    letter-spacing: 0.24px;
+    color: rgba(18, 18, 18, 0.5);
+  }
+  
+  .form .custom-button {
+    top: 0;
+    left: 0;
+    display: block;
+    margin: auto;
+  }
+  
+  .form #file {
+    position: absolute;
+    visibility: hidden;
+    cursor: auto;
+    width: 0;
+  }
+  
+  .form .file-upload .limit-file-size {
+    color: red;
+  }
+  
+  .form .custom-range {
+    height: 10px;
+    border-radius: 8.5px;
+    background-color: #d8d8d8;
+  }
+  
+  .form .custom-range:hover {
+    opacity: 1;
+    cursor: pointer;
+  }
+  
+  .form .custom-range::-webkit-slider-thumb {
+    width: 24px;
+    height: 24px;
+    box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.32);
+    background-color: #ffffff;
+    cursor: pointer;
+    border-radius: 50%;
+    position: relative;
+    top: -4px;
+  }
+  
+  .form .custom-range::-moz-range-thumb {
+    width: 24px;
+    height: 24px;
+    box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.32);
+    background-color: #ffffff;
+    border-radius: 50%;
+  }
+  
+  .form .range-input-label-wrapper {
+    position: relative;
+    top: -27px;
+  }
+  
+  .form .range-input-label-wrapper label {
+    font-size: 1.25rem;
+    line-height: 1.5;
+  }
+  
+  .form .range-input-label-wrapper label>span {
+    font-size: 1.25rem;
+    line-height: 1.5;
+    color: #00addf;
+  }
+  
+  .form .radio-buttons {
+    float: right;
+  }
+  
+  /* The container */
+  .form .radio-buttons .radio-btn-container {
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default radio button */
+  .form .radio-buttons .radio-btn-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  /* Create a custom radio button */
+  .form .radio-buttons .checkmark {
+    background-color: #d8d8d8;
+    color: #121212;
+    border-radius: 1.4px;
+    font-family: Montserrat, sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 10px;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .form .radio-buttons .radio-btn-container:hover input~.checkmark {
+    background-color: rgba(0, 173, 223, 0.5);
+  }
+  
+  /* When the radio button is checked, add a blue background */
+  .form .radio-buttons .radio-btn-container input:checked~.checkmark {
+    background-color: #00addf;
+    color: #ffffff;
+  }
+  
+  .form .radio-buttons .radio-btn-container:first-child {
+    position: relative;
+    left: 4px;
+  }
+  
+  .form .error-msg {
+    position: relative;
+    top: -62px;
+    color: #d50000;
+    font-size: 12px;
+    display: none;
+  }
+  
+  .form #form-status-message {
+    max-width: 90%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    line-height: 30px;
+    text-align: center;
+  }
+  
+  .form #form-status-message span {
+    color: #00addf;
+  }
+  
+  .form #try-again-btn {
+    display: none;
+  }
+  
+  @media  (max-width: 992px) {   
+    .half {
+        width: 100%!important;
+        padding-right: 0!important;
+        padding-left: 0!important;
+    }
+
+    .full{
+        padding-right: 0!important;
+        padding-left: 0!important;
+    }
+
+    
+    .section-form .file-upload {
+        margin-bottom: 64px;
+    }
+}

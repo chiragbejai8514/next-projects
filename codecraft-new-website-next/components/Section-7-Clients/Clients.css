@@ -1,0 +1,24 @@
+.section-7 img{
+    width: 170px;
+    margin-bottom: 30px;
+
+}
+
+.clients {
+    justify-content: center;
+}
+
+.section-7 .section-title-2 {
+    padding-bottom: 80px;
+}
+
+.section-7{
+    padding-top: 78px;
+}
+
+@media  (max-width: 992px) {   
+    .section-7 img {
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+}

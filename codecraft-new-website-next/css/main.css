@@ -1,0 +1,130 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Raleway, sans-serif;
+  font-weight: 400;
+  line-height: normal;
+  color: #121212;
+}
+
+p {
+  margin: 0;
+}
+
+button {
+  outline: none;
+  border: none;
+  transition: all .3s linear;
+}
+
+input:invalid {
+  box-shadow: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover {
+  background-color: #0083a9;
+  color: #fff;
+  opacity: 0.7;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+  line-height: 1;
+}
+
+a {
+  -webkit-transition: .4s cubic-bezier(.25, .46, .45, .94);
+  transition: .4s cubic-bezier(.25, .46, .45, .94);
+  -webkit-transition-property: background-color, color;
+  transition-property: background-color, color
+}
+
+h4 small,
+h5 small,
+h6 small {
+  font-family: Raleway, sans-serif;
+  font-weight: 300;
+  color: #121212;
+}
+
+small {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.font-montserrat {
+  font-family: Montserrat, sans-serif;
+}
+
+#main-container {
+  margin-top: 70px;
+}
+
+.custom-button {
+  width: 164px;
+  height: 48px;
+  border-radius: 3px;
+  box-shadow: 0 5px 0 0 rgba(0, 187, 240, 0.5);
+  background-color: #01addf;
+  font-weight: 600;
+  line-height: 1.25;
+  color: #ffffff;
+}
+
+.section-title {
+  font-size: 50px;
+  letter-spacing: 1px;
+  font-weight: 200;
+}
+
+.section-title-2 {
+  font-weight: 800;
+}
+
+.icon-size {
+  width: 60px;
+  height: 60px;
+}

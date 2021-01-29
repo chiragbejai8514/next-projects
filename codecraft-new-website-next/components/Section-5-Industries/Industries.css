@@ -1,0 +1,29 @@
+.section-5{
+    padding-top: 100px;
+    padding-bottom: 50px;;
+}
+
+.industries{
+    padding-top: 80px;
+    justify-content: center;
+}
+
+.section-5 .card-container {
+    max-width: 360px;
+    min-width: 170px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+.section-5 img{
+    margin-bottom: 20px;
+}
+
+@media  (max-width: 992px) {   
+    .section-5 .card-container {
+        flex: 0 0 50%!important;
+        max-width: 50%!important;
+        min-width: unset!important;
+    }
+}

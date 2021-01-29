@@ -1,0 +1,65 @@
+import Head from 'next/head'
+
+const Layout = () =>
+    (<div>
+        <Head>
+            <title>Leading Mobile App development company in India: CodeCraft Technologies</title>
+            <link rel="stylesheet" href="../css/main.css" />
+            <link rel="stylesheet" href="../css/header-navbar.css" />
+            <link rel="stylesheet" href="../css/mobile-app-development-us.css" />
+            <link rel="stylesheet" href="../css/owl.carousel.min.css" />
+            <link rel="shortcut icon" href="//d18q2npc6mijvg.cloudfront.net/other/favicon.png" type="image/x-icon" />
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+            <link rel="stylesheet" href="../css/fonts.min.css" />
+        </Head>
+        <section id="header-nav">
+            <nav class="navbar navbar-expand-lg shadow-sm fixed-top">
+                <div class="container">
+                    <a class="navbar-brand" href="http://www.codecraft.co.in" title="CodeCraft Technologies">
+                        <h4>CodeCraft<small> Technologies</small></h4>
+                    </a>
+                    <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse"
+                        data-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                        <ul class="nav navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="http://www.codecraft.co.in/#home">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="http://www.codecraft.co.in/#clients">Clients</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="http://www.codecraft.co.in/#services">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="http://www.codecraft.co.in/#our-work">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="http://www.codecraft.co.in/career">Careers</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="http://www.codecraft.co.in/#team">Team</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="http://www.codecraft.co.in/#contact-form">Contact</a>
+                            </li>
+                            <li class="nav-item"><a class="nav-link"
+                                href="mailto:%63%6f%6e%74%61%63%74%75%73%40%63%6f%64%65%63%72%61%66%74%2e%63%6f%2e%69%6e">
+                                <span class="btn-buy">Email us</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </section>
+        <style global jsx>{`
+        #header,
+        a{
+            color:#000000;
+        }`}
+        </style>
+    </div>
+    )
+
+export default Layout

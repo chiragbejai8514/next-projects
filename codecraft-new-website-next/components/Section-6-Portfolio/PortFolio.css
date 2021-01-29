@@ -1,0 +1,77 @@
+.section-6{
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+.section-6-container{
+    padding-top: 80px;
+    justify-content: space-evenly
+   
+}
+
+.port-folio-card{
+    display: flex;
+    flex-direction: column;
+}
+
+.section-6 .Pcard-wrapper {
+    border-radius: 3px;
+    border: solid 1px #d5d5d5;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.port-folio-card img{
+    max-width: 350px;
+    filter: brightness(0.5);
+    transition: filter .4s  cubic-bezier(.25, .46, .45, .94);
+}
+    
+.port-folio-card img:hover{
+    filter: none;
+}
+
+.Pcard-name{
+    position: absolute;
+    bottom: 20px;
+    left: 24px;
+}
+
+.Pcard-img{
+    position: relative;
+}
+
+
+.Pcard-heading{ 
+    color: #ffffff;
+}
+
+.Pcard-heading-1{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.67;
+    letter-spacing: 0.5px;
+}
+
+
+.Pcard-heading-2{ 
+    font-family: Raleway;
+    font-size: 14px;
+    line-height: 1.57;
+    letter-spacing: 0.17px;
+}
+
+.description{
+    max-width: 350px;
+    padding: 26px 24px 40px 24px;
+    font-size: 14px;
+    font-family: Raleway;
+    font-size: 0.875rem;
+    line-height: 1.57;
+    box-sizing: border-box;
+}
+
+.section-6 .btn{
+    margin-top: 60px;
+}

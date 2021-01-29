@@ -1,0 +1,24 @@
+
+.allServices-container{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-family: Raleway;
+    font-size: 14px;
+}
+
+.allServices{
+    padding:15px;
+    padding-top: 64px;
+}
+
+.allServices-name{
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.88;
+    color: #01addf;
+}
+
+.section-12-container{
+    padding: 10px
+
+}
